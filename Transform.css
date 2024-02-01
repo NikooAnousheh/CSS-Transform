@@ -1,0 +1,141 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ body {
+    background-color: #ffffff;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+.gray-back{
+    background-color: #ffffff;
+    border-style: outset;
+    position: relative;
+    width: 12rem;
+    height: 7rem;
+   
+  }
+.fixed{
+    background-color: #646569;
+    width: 5rem;
+    height: 5rem;  
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+   }
+.pr{
+    background-color:#9b71b7;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    z-index: 1;
+    transition: all .6s;
+  }
+
+
+
+
+.first:hover{
+    transform: rotate(50deg);
+  }
+.second:hover{
+    transform:scaleY(.7);
+  }
+.third:hover{
+    transform: scaleX(.6);
+  }
+.fourth:hover{
+    transform: scale(2);
+  }
+.fifth:hover{
+    transform: scaleX(2);
+  }
+.sixth:hover{
+    transform: scaleY(2);
+  }
+.seventh:hover{
+    transform: skewX(42deg);
+  }
+.eighth:hover{
+    transform: skewY(42deg);
+  }
+.ninth:hover{
+    transform: translate(1rem,.80rem);
+  }
+.tenth:hover{
+    transform: translate(1rem);
+  }
+.eleventh:hover{
+    transform: translateY(2rem);
+  }
+.twelfth:hover{
+    transform: scale(2) skewY(30deg) translate(1rem,-2rem);
+  }
+.thirteenth:hover{
+    transform:perspective(4rem) rotatex(40deg);  
+  }
+.fourteenth:hover{
+    transform:perspective(5rem) rotateY(50deg);
+  }
+
+.fixedfifteenth:hover{
+    transform-origin: top right;
+  } 
+.fifteenth:hover{
+    transform: rotateZ(50deg);
+  }
+
+.sixteenth:hover{
+    transform:rotateZ(50deg);
+    transform-origin: left bottom;
+  }
+.seventeenth:hover{
+    transform:perspective(6rem) rotateX(35deg);
+    transform-origin: bottom;
+  }
+.eighteenth:hover{
+    transform:perspective(11em) rotateX(70deg);
+    transform-origin: top;
+  }
+.nineteenth:hover{
+    transform: perspective(10rem) rotateY(25deg);
+    transform-origin: left;
+  }
+.twentieth:hover{
+    transform: perspective(13rem) rotateY(60deg);
+    transform-origin: right;
+  }
+.twenty-first:hover{
+    transform: scale(2);
+    transform-origin: top right;
+  } 
+.twenty-second:hover{
+    transform: scale(2);
+    transform-origin: bottom left;
+  }
+.twenty-third:hover{
+    transform: scaleX(2);
+    transform-origin: right;
+  }
+.twenty-fourth:hover{
+    transform: scaleX(2);
+    transform-origin: left;
+  }
+.twenty-fith:hover{
+    transform: scaleY(2);
+    transform-origin: top;
+  }
+.twenty-sixth:hover{
+    transform: scaleY(2);
+    transform-origin: bottom;
+  }
